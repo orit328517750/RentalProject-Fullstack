@@ -1,0 +1,24 @@
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\DAL\bin\Debug\DAL.dll.config
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\DAL\bin\Debug\DAL.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\DAL\bin\Debug\DAL.pdb
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\DAL\bin\Debug\EntityFramework.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\DAL\bin\Debug\EntityFramework.SqlServer.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\DAL\bin\Debug\EntityFramework.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\DAL\bin\Debug\EntityFramework.SqlServer.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\DAL\obj\Debug\DAL.csproj.Up2Date
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\DAL\obj\Debug\DAL.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\DAL\obj\Debug\DAL.pdb
+D:\Angular_E_M\CarsShifi\DAL\bin\Debug\DAL.dll.config
+D:\Angular_E_M\CarsShifi\DAL\bin\Debug\DAL.dll
+D:\Angular_E_M\CarsShifi\DAL\bin\Debug\DAL.pdb
+D:\Angular_E_M\CarsShifi\DAL\bin\Debug\EntityFramework.dll
+D:\Angular_E_M\CarsShifi\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Angular_E_M\CarsShifi\DAL\bin\Debug\EntityFramework.xml
+D:\Angular_E_M\CarsShifi\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Angular_E_M\CarsShifi\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\Angular_E_M\CarsShifi\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Angular_E_M\CarsShifi\DAL\obj\Debug\DAL.csproj.Up2Date
+D:\Angular_E_M\CarsShifi\DAL\obj\Debug\DAL.dll
+D:\Angular_E_M\CarsShifi\DAL\obj\Debug\DAL.pdb
