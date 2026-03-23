@@ -13,7 +13,8 @@ namespace DAL
         {
             using (CarsDBEntities1 carsDBEntities = new CarsDBEntities1())
             {
-                return carsDBEntities.GetDbSet<T>().ToList();
+                // שיניתי מ-GetDbSet ל-Set
+                return carsDBEntities.Set<T>().ToList();
             }
         }
         public enum ExecuteActions

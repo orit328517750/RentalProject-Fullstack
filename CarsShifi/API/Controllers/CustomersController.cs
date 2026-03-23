@@ -109,6 +109,7 @@ namespace API.Controllers
 
             try
             {
+                //string path = System.Web.Hosting.HostingEnvironment.MapPath("~/App_Data");
                 var result = cbl.InsertClient(clients);
                 return Ok(result);
             }

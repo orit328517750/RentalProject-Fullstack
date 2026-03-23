@@ -22,3 +22,15 @@ D:\Angular_E_M\CarsShifi\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 D:\Angular_E_M\CarsShifi\DAL\obj\Debug\DAL.csproj.Up2Date
 D:\Angular_E_M\CarsShifi\DAL\obj\Debug\DAL.dll
 D:\Angular_E_M\CarsShifi\DAL\obj\Debug\DAL.pdb
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\DAL\bin\Debug\DAL.dll.config
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\DAL\bin\Debug\DAL.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\DAL\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\DAL\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\DAL\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\DAL\obj\Debug\DAL.csproj.Up2Date
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\DAL\obj\Debug\DAL.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\DAL\obj\Debug\DAL.pdb

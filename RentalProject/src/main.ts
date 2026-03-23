@@ -5,3 +5,7 @@ import { App } from './app/app';
 
 bootstrapApplication(App, appConfig)
   .catch((err) => console.error(err));
+
+
+
+  //https://localhost:44372/api/customer/getallcustomers

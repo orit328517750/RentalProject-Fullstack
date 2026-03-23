@@ -22,3 +22,15 @@ C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angula
 C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\BL\obj\Debug\BL.csproj.Up2Date
 C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\BL\obj\Debug\BL.dll
 C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\BL\obj\Debug\BL.pdb
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\BL\bin\Debug\BL.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\BL\bin\Debug\BL.pdb
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\BL\bin\Debug\DAL.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\BL\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\BL\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\BL\bin\Debug\DAL.dll.config
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\BL\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\BL\obj\Debug\BL.csproj.Up2Date
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\BL\obj\Debug\BL.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\BL\obj\Debug\BL.pdb

@@ -19,11 +19,7 @@ namespace DAL
             : base("name=CarsDBEntities1")
         {
         }
-        public DbSet<T> GetDbSet<T>() where T : class
-        {
-            return this.Set<T>();
-        }
-
+    
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             throw new UnintentionalCodeFirstException();
