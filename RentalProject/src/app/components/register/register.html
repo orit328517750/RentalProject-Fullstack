@@ -1,0 +1,32 @@
+<div class="register-container">
+  <h2>הרשמת לקוח חדש</h2>
+
+  <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+
+    <div>
+      <label>שם פרטי:</label>
+      <input type="text" formControlName="firstName">
+      <small style="color:red" *ngIf="registerForm.get('firstName')?.invalid && registerForm.get('firstName')?.touched">
+        שם פרטי הוא חובה
+      </small>
+    </div>
+
+    <div>
+      <label>שם משפחה:</label>
+      <input type="text" formControlName="lastName">
+    </div>
+
+    <div>
+      <label>אימייל:</label>
+      <input type="email" formControlName="email">
+    </div>
+
+    <div>
+      <label>קוד עיר:</label>
+      <input type="number" formControlName="idCity">
+    </div>
+
+    <button type="submit" [disabled]="registerForm.invalid">הרשמה</button>
+
+  </form>
+</div>

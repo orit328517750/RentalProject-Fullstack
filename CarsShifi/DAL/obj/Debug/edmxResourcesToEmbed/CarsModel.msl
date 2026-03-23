@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CarsDBModelStoreContainer" CdmEntityContainer="CarsDBEntities">
+    <EntitySetMapping Name="Cars">
+      <EntityTypeMapping TypeName="CarsDBModel.Cars">
+        <MappingFragment StoreEntitySet="Cars">
+          <ScalarProperty Name="priceOfWeek" ColumnName="priceOfWeek" />
+          <ScalarProperty Name="priceOfDay" ColumnName="priceOfDay" />
+          <ScalarProperty Name="level" ColumnName="level" />
+          <ScalarProperty Name="numPlace" ColumnName="numPlace" />
+          <ScalarProperty Name="carCode" ColumnName="carCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cities">
+      <EntityTypeMapping TypeName="CarsDBModel.Cities">
+        <MappingFragment StoreEntitySet="Cities">
+          <ScalarProperty Name="cityName" ColumnName="cityName" />
+          <ScalarProperty Name="cityCode" ColumnName="cityCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="CarsDBModel.Customers">
+        <MappingFragment StoreEntitySet="Customers">
+          <ScalarProperty Name="codePayment" ColumnName="codePayment" />
+          <ScalarProperty Name="numOfLending" ColumnName="numOfLending" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="idCity" ColumnName="idCity" />
+          <ScalarProperty Name="lastName" ColumnName="lastName" />
+          <ScalarProperty Name="firstName" ColumnName="firstName" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PayMents">
+      <EntityTypeMapping TypeName="CarsDBModel.PayMents">
+        <MappingFragment StoreEntitySet="PayMents">
+          <ScalarProperty Name="cvc" ColumnName="cvc" />
+          <ScalarProperty Name="validit" ColumnName="validit" />
+          <ScalarProperty Name="creditCard" ColumnName="creditCard" />
+          <ScalarProperty Name="paymentCode" ColumnName="paymentCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Rents">
+      <EntityTypeMapping TypeName="CarsDBModel.Rents">
+        <MappingFragment StoreEntitySet="Rents">
+          <ScalarProperty Name="rentGoal" ColumnName="rentGoal" />
+          <ScalarProperty Name="finishDate" ColumnName="finishDate" />
+          <ScalarProperty Name="beginDate" ColumnName="beginDate" />
+          <ScalarProperty Name="carCode" ColumnName="carCode" />
+          <ScalarProperty Name="customerId" ColumnName="customerId" />
+          <ScalarProperty Name="rensCode" ColumnName="rensCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

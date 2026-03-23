@@ -1,0 +1,549 @@
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\API.dll.config
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\API.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\API.pdb
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\csc.exe
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\csc.exe.config
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\csc.rsp
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\csi.exe
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\csi.exe.config
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\csi.rsp
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\Microsoft.CodeAnalysis.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\Microsoft.CSharp.Core.targets
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\Microsoft.Managed.Core.targets
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\Microsoft.Win32.Primitives.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\System.AppContext.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\System.Collections.Immutable.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\System.Console.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\System.Diagnostics.StackTrace.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\System.Globalization.Calendars.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\System.IO.Compression.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\System.IO.Compression.ZipFile.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\System.IO.FileSystem.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\System.Net.Http.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\System.Net.Sockets.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\System.Reflection.Metadata.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\System.Text.Encoding.CodePages.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\System.Threading.Tasks.Extensions.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\System.ValueTuple.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\System.Xml.ReaderWriter.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\System.Xml.XmlDocument.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\System.Xml.XPath.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\System.Xml.XPath.XDocument.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\vbc.exe
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\vbc.exe.config
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\vbc.rsp
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\VBCSCompiler.exe
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\roslyn\VBCSCompiler.exe.config
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Antlr3.Runtime.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.Web.Infrastructure.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Newtonsoft.Json.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\System.Net.Http.Formatting.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\System.Web.Helpers.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\System.Web.Http.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\System.Web.Http.WebHost.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\System.Web.Mvc.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\System.Web.Optimization.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\System.Web.Razor.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\System.Web.WebPages.Deployment.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\System.Web.WebPages.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\System.Web.WebPages.Razor.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\WebGrease.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Newtonsoft.Json.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\System.Net.Http.Formatting.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\System.Web.Helpers.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\System.Web.Http.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\System.Web.Http.WebHost.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\System.Web.Mvc.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\System.Web.Optimization.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\System.Web.Razor.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\System.Web.WebPages.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\System.Web.WebPages.Deployment.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\System.Web.WebPages.Razor.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Antlr3.Runtime.pdb
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\obj\Debug\API.csproj.AssemblyReference.cache
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\obj\Debug\API.csproj.CoreCompileInputs.cache
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\obj\Debug\API.csproj.Up2Date
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\obj\Debug\API.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\obj\Debug\API.pdb
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\BL.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\EntityFramework.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\EntityFramework.SqlServer.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.AspNetCore.Authentication.Core.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.AspNetCore.Authorization.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.AspNetCore.Cors.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.AspNetCore.Http.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.AspNetCore.Http.Extensions.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.AspNetCore.Http.Features.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.AspNetCore.Mvc.Core.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.AspNetCore.Mvc.Cors.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.AspNetCore.Routing.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.AspNetCore.WebUtilities.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.Bcl.AsyncInterfaces.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.DotNet.PlatformAbstractions.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.Extensions.DependencyInjection.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.Extensions.DependencyModel.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.Extensions.Diagnostics.Abstractions.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.Extensions.Logging.Abstractions.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.Extensions.ObjectPool.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.Extensions.Options.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.Extensions.Primitives.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.Net.Http.Headers.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.Owin.Cors.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.Owin.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Newtonsoft.Json.Bson.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Owin.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\System.Buffers.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\System.Diagnostics.DiagnosticSource.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\System.Memory.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\System.Numerics.Vectors.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\System.Runtime.CompilerServices.Unsafe.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\System.Text.Encodings.Web.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\System.Threading.Tasks.Extensions.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\System.ValueTuple.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\System.Web.Cors.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\System.Web.Http.Cors.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\DAL.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\BL.pdb
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\EntityFramework.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\EntityFramework.SqlServer.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.AspNetCore.Authentication.Core.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.AspNetCore.Authorization.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.AspNetCore.Cors.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.AspNetCore.Http.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.AspNetCore.Http.Extensions.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.AspNetCore.Http.Features.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.AspNetCore.Mvc.Core.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.AspNetCore.Mvc.Cors.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.AspNetCore.Routing.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.AspNetCore.WebUtilities.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.Bcl.AsyncInterfaces.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.Extensions.DependencyInjection.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.Extensions.Diagnostics.Abstractions.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.Extensions.Logging.Abstractions.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.Extensions.ObjectPool.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.Extensions.Options.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.Extensions.Primitives.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.Net.Http.Headers.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.Owin.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Microsoft.Owin.Cors.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Newtonsoft.Json.Bson.pdb
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\Newtonsoft.Json.Bson.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\System.Buffers.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\System.Diagnostics.DiagnosticSource.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\System.Memory.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\System.Numerics.Vectors.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\System.Runtime.CompilerServices.Unsafe.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\System.Text.Encodings.Web.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\System.Threading.Tasks.Extensions.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\System.ValueTuple.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\System.Web.Http.Cors.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\DAL.pdb
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\API\bin\DAL.dll.config
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\API.dll.config
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\API.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\API.pdb
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\csc.exe
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\csc.exe.config
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\csc.rsp
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\csi.exe
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\csi.exe.config
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\csi.rsp
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\System.AppContext.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\System.Collections.Immutable.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\System.Console.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\System.Globalization.Calendars.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\System.IO.Compression.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\System.IO.FileSystem.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\System.Net.Http.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\System.Net.Sockets.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\System.Reflection.Metadata.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\System.ValueTuple.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\System.Xml.XPath.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\vbc.exe
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\vbc.exe.config
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\vbc.rsp
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\VBCSCompiler.exe
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\roslyn\VBCSCompiler.exe.config
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Antlr3.Runtime.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\BL.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\EntityFramework.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\EntityFramework.SqlServer.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.AspNetCore.Authentication.Core.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.AspNetCore.Authorization.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.AspNetCore.Cors.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.AspNetCore.Http.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.AspNetCore.Mvc.Core.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.AspNetCore.Mvc.Cors.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.AspNetCore.Routing.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.AspNetCore.WebUtilities.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.DotNet.PlatformAbstractions.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.Extensions.DependencyModel.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.Extensions.ObjectPool.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.Extensions.Options.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.Extensions.Primitives.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.Net.Http.Headers.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.Owin.Cors.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.Owin.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.Web.Infrastructure.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Newtonsoft.Json.Bson.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Newtonsoft.Json.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Owin.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\System.Buffers.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\System.Diagnostics.DiagnosticSource.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\System.Memory.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\System.Net.Http.Formatting.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\System.Numerics.Vectors.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\System.Text.Encodings.Web.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\System.Threading.Tasks.Extensions.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\System.ValueTuple.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\System.Web.Cors.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\System.Web.Helpers.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\System.Web.Http.Cors.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\System.Web.Http.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\System.Web.Http.WebHost.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\System.Web.Mvc.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\System.Web.Optimization.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\System.Web.Razor.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\System.Web.WebPages.Deployment.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\System.Web.WebPages.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\System.Web.WebPages.Razor.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\WebGrease.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\DAL.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\BL.pdb
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\EntityFramework.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\EntityFramework.SqlServer.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.AspNetCore.Authentication.Core.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.AspNetCore.Authorization.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.AspNetCore.Cors.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.AspNetCore.Http.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.AspNetCore.Mvc.Core.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.AspNetCore.Mvc.Cors.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.AspNetCore.Routing.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.AspNetCore.WebUtilities.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.Extensions.Diagnostics.Abstractions.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.Extensions.ObjectPool.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.Extensions.Options.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.Extensions.Primitives.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.Net.Http.Headers.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.Owin.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.Owin.Cors.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Newtonsoft.Json.Bson.pdb
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Newtonsoft.Json.Bson.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\System.Buffers.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\System.Diagnostics.DiagnosticSource.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\System.Memory.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\System.Net.Http.Formatting.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\System.Numerics.Vectors.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\System.Text.Encodings.Web.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\System.Threading.Tasks.Extensions.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\System.ValueTuple.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\System.Web.Helpers.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\System.Web.Http.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\System.Web.Http.Cors.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\System.Web.Http.WebHost.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\System.Web.Mvc.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\System.Web.Razor.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\System.Web.WebPages.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\System.Web.WebPages.Deployment.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\System.Web.WebPages.Razor.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Newtonsoft.Json.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\System.Web.Optimization.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Antlr3.Runtime.pdb
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\DAL.pdb
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\bin\DAL.dll.config
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\obj\Debug\API.csproj.AssemblyReference.cache
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\obj\Debug\API.csproj.CoreCompileInputs.cache
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\obj\Debug\API.csproj.Up2Date
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\obj\Debug\API.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\API\obj\Debug\API.pdb
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\API.dll.config
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\API.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\API.pdb
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\csc.exe
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\csc.exe.config
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\csc.rsp
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\csi.exe
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\csi.exe.config
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\csi.rsp
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\System.AppContext.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\System.Console.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\System.IO.Compression.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\System.Net.Http.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\System.Net.Sockets.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\System.ValueTuple.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\System.Xml.XPath.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\vbc.exe
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\vbc.exe.config
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\vbc.rsp
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\VBCSCompiler.exe
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Antlr3.Runtime.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\BL.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\EntityFramework.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.AspNetCore.Authorization.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.AspNetCore.Cors.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.AspNetCore.Http.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.AspNetCore.Mvc.Cors.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.AspNetCore.Routing.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.Extensions.DependencyModel.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.Extensions.ObjectPool.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.Extensions.Options.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.Owin.Cors.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.Owin.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Newtonsoft.Json.Bson.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Newtonsoft.Json.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Owin.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\System.Buffers.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\System.Memory.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\System.Net.Http.Formatting.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\System.Numerics.Vectors.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\System.Text.Encodings.Web.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\System.ValueTuple.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\System.Web.Cors.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\System.Web.Helpers.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\System.Web.Http.Cors.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\System.Web.Http.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\System.Web.Http.WebHost.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\System.Web.Mvc.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\System.Web.Optimization.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\System.Web.Razor.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\System.Web.WebPages.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\System.Web.WebPages.Razor.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\WebGrease.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\DAL.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\BL.pdb
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\EntityFramework.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.AspNetCore.Authentication.Core.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.AspNetCore.Authorization.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.AspNetCore.Cors.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.AspNetCore.Http.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.AspNetCore.Mvc.Core.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.AspNetCore.Mvc.Cors.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.AspNetCore.Routing.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.Extensions.Diagnostics.Abstractions.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.Extensions.ObjectPool.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.Extensions.Options.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.Owin.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.Owin.Cors.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Newtonsoft.Json.Bson.pdb
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Newtonsoft.Json.Bson.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\System.Buffers.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\System.Memory.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\System.Net.Http.Formatting.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\System.Numerics.Vectors.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\System.Text.Encodings.Web.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\System.ValueTuple.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\System.Web.Helpers.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\System.Web.Http.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\System.Web.Http.Cors.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\System.Web.Http.WebHost.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\System.Web.Mvc.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\System.Web.Razor.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\System.Web.WebPages.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\System.Web.WebPages.Razor.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Newtonsoft.Json.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\System.Web.Optimization.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Antlr3.Runtime.pdb
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\DAL.pdb
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\bin\DAL.dll.config
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\obj\Debug\API.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\obj\Debug\API.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\obj\Debug\API.csproj.Up2Date
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\obj\Debug\API.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\API\obj\Debug\API.pdb

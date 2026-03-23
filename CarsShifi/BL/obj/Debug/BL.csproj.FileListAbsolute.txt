@@ -1,0 +1,36 @@
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\BL\bin\Debug\BL.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\BL\bin\Debug\BL.pdb
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\BL\bin\Debug\DAL.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\BL\bin\Debug\EntityFramework.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\BL\bin\Debug\DAL.pdb
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\BL\bin\Debug\DAL.dll.config
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\BL\bin\Debug\EntityFramework.xml
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\BL\obj\Debug\BL.csproj.Up2Date
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\BL\obj\Debug\BL.dll
+T:\Group A\Angular\שיפי זעפרני\שיעור 3\CarsShifi\BL\obj\Debug\BL.pdb
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\BL\bin\Debug\BL.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\BL\bin\Debug\BL.pdb
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\BL\bin\Debug\DAL.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\BL\bin\Debug\EntityFramework.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\BL\bin\Debug\DAL.pdb
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\BL\bin\Debug\DAL.dll.config
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\BL\bin\Debug\EntityFramework.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\BL\obj\Debug\BL.csproj.Up2Date
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\BL\obj\Debug\BL.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\BL\obj\Debug\BL.pdb
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\BL\bin\Debug\BL.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\BL\bin\Debug\BL.pdb
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\BL\bin\Debug\DAL.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\BL\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\BL\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\BL\bin\Debug\DAL.dll.config
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\BL\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\BL\obj\Debug\BL.csproj.Up2Date
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\BL\obj\Debug\BL.dll
+C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\BL\obj\Debug\BL.pdb
