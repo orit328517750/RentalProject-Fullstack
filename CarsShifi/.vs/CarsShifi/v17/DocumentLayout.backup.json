@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA\\angular_two\\RentalProject-Fullstack\\CarsShifi\\",
+  "WorkspaceRootPath": "C:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05DC\u05DE\u05D9\u05D3\u05D4 \u05DE\u05E8\u05D7\u05D5\u05E7\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8 \u05D5\u05E0\u05D8\u05E7\u05D5\u05E8\\Angular_E_M\\CarsShifi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{57567F82-1E31-4255-AB91-D0FE47DD7523}|API\\API.csproj|c:\\users\\user\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA\\angular_two\\rentalproject-fullstack\\carsshifi\\api\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{57567F82-1E31-4255-AB91-D0FE47DD7523}|API\\API.csproj|c:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05DC\u05DE\u05D9\u05D3\u05D4 \u05DE\u05E8\u05D7\u05D5\u05E7\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8 \u05D5\u05E0\u05D8\u05E7\u05D5\u05E8\\angular_e_m\\carsshifi\\api\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57567F82-1E31-4255-AB91-D0FE47DD7523}|API\\API.csproj|solutionrelative:api\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC3D4870-F57E-49C4-8F97-DEC367E5068A}|BL\\BL.csproj|c:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05DC\u05DE\u05D9\u05D3\u05D4 \u05DE\u05E8\u05D7\u05D5\u05E7\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8 \u05D5\u05E0\u05D8\u05E7\u05D5\u05E8\\angular_e_m\\carsshifi\\bl\\classesbl\\customersbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC3D4870-F57E-49C4-8F97-DEC367E5068A}|BL\\BL.csproj|solutionrelative:bl\\classesbl\\customersbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC3D4870-F57E-49C4-8F97-DEC367E5068A}|BL\\BL.csproj|c:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05DC\u05DE\u05D9\u05D3\u05D4 \u05DE\u05E8\u05D7\u05D5\u05E7\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8 \u05D5\u05E0\u05D8\u05E7\u05D5\u05E8\\angular_e_m\\carsshifi\\bl\\classesdto\\customersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC3D4870-F57E-49C4-8F97-DEC367E5068A}|BL\\BL.csproj|solutionrelative:bl\\classesdto\\customersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_USER_DESKTOP_\u05EA\u05DB\u05E0\u05D5\u05EA_ANGULAR_CARSSHIFI_API_APP_DATA_CARSDB.MDF/True/SqlTable/dbo.Customers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
@@ -17,24 +25,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomersBL.cs",
+              "DocumentMoniker": "C:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05DC\u05DE\u05D9\u05D3\u05D4 \u05DE\u05E8\u05D7\u05D5\u05E7\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8 \u05D5\u05E0\u05D8\u05E7\u05D5\u05E8\\Angular_E_M\\CarsShifi\\BL\\ClassesBL\\CustomersBL.cs",
+              "RelativeDocumentMoniker": "BL\\ClassesBL\\CustomersBL.cs",
+              "ToolTip": "C:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05DC\u05DE\u05D9\u05D3\u05D4 \u05DE\u05E8\u05D7\u05D5\u05E7\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8 \u05D5\u05E0\u05D8\u05E7\u05D5\u05E8\\Angular_E_M\\CarsShifi\\BL\\ClassesBL\\CustomersBL.cs",
+              "RelativeToolTip": "BL\\ClassesBL\\CustomersBL.cs",
+              "ViewState": "AgIAALIAAAAAAAAAAAAYwMAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T22:12:21.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomersDTO.cs",
+              "DocumentMoniker": "C:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05DC\u05DE\u05D9\u05D3\u05D4 \u05DE\u05E8\u05D7\u05D5\u05E7\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8 \u05D5\u05E0\u05D8\u05E7\u05D5\u05E8\\Angular_E_M\\CarsShifi\\BL\\ClassesDTO\\CustomersDTO.cs",
+              "RelativeDocumentMoniker": "BL\\ClassesDTO\\CustomersDTO.cs",
+              "ToolTip": "C:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05DC\u05DE\u05D9\u05D3\u05D4 \u05DE\u05E8\u05D7\u05D5\u05E7\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8 \u05D5\u05E0\u05D8\u05E7\u05D5\u05E8\\Angular_E_M\\CarsShifi\\BL\\ClassesDTO\\CustomersDTO.cs",
+              "RelativeToolTip": "BL\\ClassesDTO\\CustomersDTO.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T22:11:19.919Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "CustomersController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA\\angular_two\\RentalProject-Fullstack\\CarsShifi\\API\\Controllers\\CustomersController.cs",
+              "DocumentMoniker": "C:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05DC\u05DE\u05D9\u05D3\u05D4 \u05DE\u05E8\u05D7\u05D5\u05E7\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8 \u05D5\u05E0\u05D8\u05E7\u05D5\u05E8\\Angular_E_M\\CarsShifi\\API\\Controllers\\CustomersController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\CustomersController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA\\angular_two\\RentalProject-Fullstack\\CarsShifi\\API\\Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05DC\u05DE\u05D9\u05D3\u05D4 \u05DE\u05E8\u05D7\u05D5\u05E7\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8 \u05D5\u05E0\u05D8\u05E7\u05D5\u05E8\\Angular_E_M\\CarsShifi\\API\\Controllers\\CustomersController.cs",
               "RelativeToolTip": "API\\Controllers\\CustomersController.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAywAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAUwIgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-23T13:53:43.986Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "dbo.Customers.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_USER_DESKTOP_\u05EA\u05DB\u05E0\u05D5\u05EA_ANGULAR_CARSSHIFI_API_APP_DATA_CARSDB.MDF/True/SqlTable/dbo.Customers.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_USER_DESKTOP_\u05EA\u05DB\u05E0\u05D5\u05EA_ANGULAR_CARSSHIFI_API_APP_DATA_CARSDB.MDF/True/SqlTable/dbo.Customers.sql",

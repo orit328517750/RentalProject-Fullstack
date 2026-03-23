@@ -120,6 +120,23 @@ namespace API.Controllers
         }
 
 
+        [Route("login")]
+        [HttpPost]
+        public IHttpActionResult Login([FromBody] CustomersDTO loginDetails)
+        {
+            // חיפוש לקוח לפי אימייל (או לפי שם, תלוי מה תבחרי)
+            var customer = cbl.GetCustomers().FirstOrDefault(c => c.email == loginDetails.email);
+
+            if (customer == null)
+            {
+                return BadRequest("משתמש לא נמצא או אימייל שגוי");
+            }
+
+            // בגלל שאין כרגע שדה סיסמה ב-DTO, נחזיר את האובייקט אם האימייל תקין
+            return Ok(customer);
+        }
+
+
 
 
     }

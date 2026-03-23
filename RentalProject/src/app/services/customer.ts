@@ -32,4 +32,11 @@ export class CustomerService {
   deleteCustomer(customer: Customer): Observable<boolean> {
     return this.http.post<boolean>(`${this.baseUrl}/delete/c`, customer);
   }
+
+  // פונקציית התחברות
+login(email: string): Observable<Customer> {
+  // אנחנו שולחים אובייקט עם אימייל כי השרת מצפה ל-CustomersDTO
+  return this.http.post<Customer>(`${this.baseUrl}/login`, { email: email });
 }
+}
+

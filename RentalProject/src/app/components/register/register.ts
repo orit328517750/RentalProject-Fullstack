@@ -3,11 +3,11 @@ import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angula
 import { CustomerService } from '../../services/customer';
 import { Customer } from '../../models/customer.model';
 import { CommonModule } from '@angular/common';
-
+import { RouterModule } from '@angular/router';
 @Component({
   selector: 'app-register',
   standalone: true, // וודאי שזה קיים
-  imports: [ReactiveFormsModule, CommonModule], // <--- זה חייב להיות כאן
+  imports: [ReactiveFormsModule, CommonModule, RouterModule], // <--- זה חייב להיות כאן
   templateUrl: './register.html',
   styleUrl: './register.css'
 })

@@ -1,1 +1,19 @@
-<p>login works!</p>
+<div class="register-container">
+  <h2>התחברות</h2>
+  
+  <form [formGroup]="loginForm" (ngSubmit)="onLogin()">
+    <div class="form-group">
+      <label>אימייל</label>
+      <input type="email" formControlName="email" placeholder="example@gmail.com">
+      <small style="color:red" *ngIf="loginForm.get('email')?.invalid && loginForm.get('email')?.touched">
+        נא להזין אימייל תקין
+      </small>
+    </div>
+
+    <button type="submit" [disabled]="loginForm.invalid">התחבר למערכת</button>
+  </form>
+
+  <div class="footer-link">
+    עדיין לא רשום? <a routerLink="/register">צור חשבון חדש</a>
+  </div>
+</div>
