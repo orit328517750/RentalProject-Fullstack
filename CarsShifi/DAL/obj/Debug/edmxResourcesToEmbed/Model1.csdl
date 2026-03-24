@@ -38,7 +38,7 @@
     <Key>
       <PropertyRef Name="paymentCode" />
     </Key>
-    <Property Name="paymentCode" Type="Int32" Nullable="false" />
+    <Property Name="paymentCode" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="creditCard" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="validit" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="cvc" Type="Int32" Nullable="false" />

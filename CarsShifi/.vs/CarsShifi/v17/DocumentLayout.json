@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{57567F82-1E31-4255-AB91-D0FE47DD7523}|API\\API.csproj|solutionrelative:api\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC3D4870-F57E-49C4-8F97-DEC367E5068A}|BL\\BL.csproj|c:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05DC\u05DE\u05D9\u05D3\u05D4 \u05DE\u05E8\u05D7\u05D5\u05E7\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8 \u05D5\u05E0\u05D8\u05E7\u05D5\u05E8\\angular_e_m\\carsshifi\\bl\\classesbl\\customersbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AC3D4870-F57E-49C4-8F97-DEC367E5068A}|BL\\BL.csproj|C:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05DC\u05DE\u05D9\u05D3\u05D4 \u05DE\u05E8\u05D7\u05D5\u05E7\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8 \u05D5\u05E0\u05D8\u05E7\u05D5\u05E8\\Angular_E_M\\CarsShifi\\bl\\classesbl\\customersbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC3D4870-F57E-49C4-8F97-DEC367E5068A}|BL\\BL.csproj|solutionrelative:bl\\classesbl\\customersbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC3D4870-F57E-49C4-8F97-DEC367E5068A}|BL\\BL.csproj|c:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05DC\u05DE\u05D9\u05D3\u05D4 \u05DE\u05E8\u05D7\u05D5\u05E7\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8 \u05D5\u05E0\u05D8\u05E7\u05D5\u05E8\\angular_e_m\\carsshifi\\bl\\classesdto\\customersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AC3D4870-F57E-49C4-8F97-DEC367E5068A}|BL\\BL.csproj|C:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05DC\u05DE\u05D9\u05D3\u05D4 \u05DE\u05E8\u05D7\u05D5\u05E7\\\u05D0\u05E0\u05D2\u05D5\u05DC\u05E8 \u05D5\u05E0\u05D8\u05E7\u05D5\u05E8\\Angular_E_M\\CarsShifi\\bl\\classesdto\\customersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC3D4870-F57E-49C4-8F97-DEC367E5068A}|BL\\BL.csproj|solutionrelative:bl\\classesdto\\customersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -37,8 +37,7 @@
               "RelativeToolTip": "BL\\ClassesBL\\CustomersBL.cs",
               "ViewState": "AgIAALIAAAAAAAAAAAAYwMAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T22:12:21.576Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T22:12:21.576Z"
             },
             {
               "$type": "Document",
@@ -50,8 +49,7 @@
               "RelativeToolTip": "BL\\ClassesDTO\\CustomersDTO.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T22:11:19.919Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T22:11:19.919Z"
             },
             {
               "$type": "Document",

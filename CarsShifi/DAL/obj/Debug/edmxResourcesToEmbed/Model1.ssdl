@@ -21,7 +21,7 @@
     <Key>
       <PropertyRef Name="Id" />
     </Key>
-    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="firstName" Type="nvarchar" MaxLength="50" Nullable="false" />
     <Property Name="lastName" Type="nvarchar" MaxLength="50" Nullable="false" />
     <Property Name="idCity" Type="int" Nullable="false" />
@@ -33,7 +33,7 @@
     <Key>
       <PropertyRef Name="paymentCode" />
     </Key>
-    <Property Name="paymentCode" Type="int" Nullable="false" />
+    <Property Name="paymentCode" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
     <Property Name="creditCard" Type="nvarchar" MaxLength="30" Nullable="false" />
     <Property Name="validit" Type="nvarchar" MaxLength="30" Nullable="false" />
     <Property Name="cvc" Type="int" Nullable="false" />

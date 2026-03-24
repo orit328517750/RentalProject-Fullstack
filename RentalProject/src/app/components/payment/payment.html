@@ -1,0 +1,53 @@
+<div class="payment-wrapper">
+  
+  <div class="credit-card-viz" [ngClass]="{'is-flipped': isFlipped}">
+    
+    <div class="card-front">
+      <div class="card-type-logo">VISA</div>
+      <div class="chip"></div>
+      <div class="card-number">{{ paymentData.creditCard || '#### #### #### ####' }}</div>
+      <div class="card-holder">CAR RENTAL CUSTOMER</div>
+      <div class="card-expiry">{{ paymentData.validit || 'MM/YY' }}</div>
+    </div>
+
+    <div class="card-back">
+      <div class="magnetic-strip"></div>
+      <div class="cvv-display">{{ paymentData.cvc || '***' }}</div>
+    </div>
+  </div>
+
+  <div class="payment-form-card" *ngIf="!isLoading && !isSuccess">
+    <h2>פרטי תשלום</h2>
+    
+    <div class="form-group">
+      <label>מספר כרטיס</label>
+      <input type="text" [(ngModel)]="paymentData.creditCard" maxlength="16" placeholder="0000 0000 0000 0000">
+    </div>
+
+    <div class="form-row">
+      <div class="form-group">
+        <label>תוקף</label>
+        <input type="text" [(ngModel)]="paymentData.validit" placeholder="MM/YY" maxlength="5">
+      </div>
+      <div class="form-group">
+        <label>CVV</label>
+        <input type="password" [(ngModel)]="paymentData.cvc" maxlength="3" placeholder="***"
+               (focus)="isFlipped = true" (blur)="isFlipped = false">
+      </div>
+    </div>
+
+    <button class="btn-pay" (click)="confirmPayment()">בצע תשלום והזמן עכשיו</button>
+  </div>
+
+  <div class="loader-container" *ngIf="isLoading">
+    <div class="spinner"></div>
+    <p>מתקשר עם חברת האשראי...</p>
+  </div>
+
+  <div class="success-message" *ngIf="isSuccess">
+    <div class="success-icon">✔️</div>
+    <h2>ההזמנה בוצעה בהצלחה!</h2>
+    <p>מספר אישור ההזמנה שלך: #{{generatedOrderNum}}</p>
+    <button class="btn-reset" (click)="backToCatalog()">חזרה לקטלוג</button>
+  </div>
+</div>

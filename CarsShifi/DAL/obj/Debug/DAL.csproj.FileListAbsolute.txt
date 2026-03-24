@@ -34,3 +34,15 @@ C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\D
 C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\DAL\obj\Debug\DAL.csproj.Up2Date
 C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\DAL\obj\Debug\DAL.dll
 C:\Users\user\Desktop\תכנות\angular_two\RentalProject-Fullstack\CarsShifi\DAL\obj\Debug\DAL.pdb
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\DAL\bin\Debug\DAL.dll.config
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\DAL\bin\Debug\DAL.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\DAL\bin\Debug\DAL.pdb
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\DAL\bin\Debug\EntityFramework.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\DAL\bin\Debug\EntityFramework.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\DAL\obj\Debug\DAL.csproj.Up2Date
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\DAL\obj\Debug\DAL.dll
+C:\תיכנות שנה ב\למידה מרחוק\אנגולר ונטקור\Angular_E_M\CarsShifi\DAL\obj\Debug\DAL.pdb

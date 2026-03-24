@@ -21,13 +21,20 @@ namespace API
         }
         protected void Application_BeginRequest()
         {
-            if (HttpContext.Current.Request.HttpMethod == "OPTIONS")
+            // בדיקה אם הבקשה היא מסוג OPTIONS (הבדיקה המקדימה של הדפדפן)
+            if (Context.Request.HttpMethod == "OPTIONS")
             {
-                HttpContext.Current.Response.AddHeader("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE");
-                HttpContext.Current.Response.AddHeader(" Access-Control-Allow-Headers", "Content-Type, Accept");
-                HttpContext.Current.Response.StatusCode = 200;
-                HttpContext.Current.Response.End();
+                // הוספת הכותרות הדרושות ידנית למקרה שה-CORS הרגיל מפספס אותן
+                Context.Response.AddHeader("Access-Control-Allow-Origin", Context.Request.Headers["Origin"]);
+                Context.Response.AddHeader("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Authorization");
+                Context.Response.AddHeader("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
+                Context.Response.AddHeader("Access-Control-Allow-Credentials", "true");
+
+                // עצירת הבקשה כאן והחזרת סטטוס OK (200)
+                Context.Response.StatusCode = 200;
+                Context.Response.End();
             }
         }
+
     }
 }

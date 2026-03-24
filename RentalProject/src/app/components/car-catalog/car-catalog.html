@@ -1,0 +1,54 @@
+<div class="catalog-wrapper" dir="rtl">
+  <div class="header-section">
+    <h1>קולקציית הרכבים שלנו</h1>
+    <p>חוויית נהיגה שעוד לא הכרת. בחרי את הרכב המושלם עבורך.</p>
+  </div>
+
+  <div class="filter-container">
+    <div class="filter-group">
+      <label>מספר מקומות</label>
+      <input type="number" [(ngModel)]="filterPlaces" placeholder="הכל">
+    </div>
+
+    <div class="filter-group">
+      <label>רמת יוקרה ({{filterLevel || 'הכל'}})</label>
+      <input type="range" min="0" max="10" [(ngModel)]="filterLevel" class="slider">
+    </div>
+
+    <div class="filter-group">
+      <label>תקציב ליום (עד)</label>
+      <input type="number" [(ngModel)]="filterPrice" placeholder="₪ ללא הגבלה">
+    </div>
+
+    <button class="btn-search" (click)="applyFilter()">🔍 חפשי רכבים</button>
+    <button class="btn-reset-top" (click)="resetFilter()">נקה סינון</button>
+  </div>
+
+  <div class="cars-grid" *ngIf="cars().length > 0; else noCars">
+    <div class="car-card" *ngFor="let car of cars()">
+      <div class="car-card-header">
+        <span class="luxury-badge">Level {{car.level}}</span>
+        <div class="car-visual">🏎️</div>
+      </div>
+      
+      <div class="car-card-body">
+        <div class="price-tag">₪{{car.priceOfDay}} / יום</div>
+        <h3>רכב פרמיום #{{car.carCode}}</h3>
+        
+        <div class="car-info">
+          <span>👥 {{car.numPlace}} מקומות</span>
+          <span>📅 ₪{{car.priceOfWeek}} לשבוע</span>
+        </div>
+
+        <button class="btn-order" routerLink="/payment">הזמיני עכשיו</button>
+      </div>
+    </div>
+  </div>
+
+  <ng-template #noCars>
+    <div class="empty-state-card">
+      <h3>לא נמצאו רכבים מתאימים</h3>
+      <button class="btn-reset" (click)="resetFilter()">הצג את כל הרכבים</button>
+    </div>
+  </ng-template>
+</div>

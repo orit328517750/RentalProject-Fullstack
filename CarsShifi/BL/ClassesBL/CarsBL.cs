@@ -91,12 +91,20 @@ namespace BL.ClassesBL
             return list.FindAll(Cars => Cars.priceOfDay<= price).ToList();
         }
         //קבלת רשימת רכבים ע"פ 3 הקריטריונים הנ"ל
-        public List<CarsDTO> GetCarByPriceandlevelandplace(int price, int level, int place)
+        // קבלת רשימת רכבים ע"פ 3 הקריטריונים הנ"ל
+        // שים לב: שיניתי את סדר הפרמטרים כדי שיתאים ל-Controller ול-Angular
+        public List<CarsDTO> GetCarByPriceandlevelandplace(int numMekomot, int maxRama, int maxPrice)
         {
+            // טעינת כל הרכבים והמרתם ל-DTO
             List<CarsDTO> list = Convert(conn.GetDbSet<Cars>()).ToList();
-            return list.FindAll(Cars => Cars.priceOfDay <= price&&Cars.level<=level&&Cars.numPlace==place).ToList();
-        }
 
+            // ביצוע הסינון
+            return list.FindAll(car =>
+                car.priceOfDay <= maxPrice &&    // מחיר עד המקסימום
+                car.level <= maxRama &&          // רמה עד המקסימום
+                car.numPlace >= numMekomot       // לפחות מספר המקומות המבוקש (או == אם את רוצה בדיוק)
+            ).ToList();
+        }
         public CarsDTO Convert(Cars c)
         {
             CarsDTO cdt = new CarsDTO();

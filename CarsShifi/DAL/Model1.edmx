@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="CarsDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="CarsDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="Cars">
           <Key>
             <PropertyRef Name="carCode" />
@@ -26,7 +26,7 @@
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="firstName" Type="nvarchar" MaxLength="50" Nullable="false" />
           <Property Name="lastName" Type="nvarchar" MaxLength="50" Nullable="false" />
           <Property Name="idCity" Type="int" Nullable="false" />
@@ -38,7 +38,7 @@
           <Key>
             <PropertyRef Name="paymentCode" />
           </Key>
-          <Property Name="paymentCode" Type="int" Nullable="false" />
+          <Property Name="paymentCode" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
           <Property Name="creditCard" Type="nvarchar" MaxLength="30" Nullable="false" />
           <Property Name="validit" Type="nvarchar" MaxLength="30" Nullable="false" />
           <Property Name="cvc" Type="int" Nullable="false" />
@@ -125,8 +125,7 @@
             <End Role="Rents" EntitySet="Rents" />
           </AssociationSet>
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="CarsDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -168,7 +167,7 @@
           <Key>
             <PropertyRef Name="paymentCode" />
           </Key>
-          <Property Name="paymentCode" Type="Int32" Nullable="false" />
+          <Property Name="paymentCode" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="creditCard" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="validit" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="cvc" Type="Int32" Nullable="false" />
