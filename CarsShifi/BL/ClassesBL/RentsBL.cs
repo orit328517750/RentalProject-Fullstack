@@ -16,7 +16,7 @@ namespace BL.ClassesBL
         public RentsDTO GetRentsById(int id)
         {
             List<RentsDTO> list = Convert(conn.GetDbSet<Rents>());
-            return list.FirstOrDefault(c => c.rentCode == id);
+            return list.FirstOrDefault(c => c.rensCode == id);
         }
         //הוספה
         public bool Add(RentsDTO c)
@@ -139,7 +139,7 @@ namespace BL.ClassesBL
         public List<RentsDTO> GetRentsByCustomerId(int customerId)
         {
             List<RentsDTO> rents = Convert(conn.GetDbSet<Rents>());
-            return rents.Where(r => r.carCode == customerId).ToList();
+            return rents.Where(r => r.customerId == customerId).ToList();
         }
 
         public List<RentsDTO> GetRentsByCarCode(int carCode)
@@ -151,7 +151,7 @@ namespace BL.ClassesBL
         public RentsDTO Convert(Rents c)
         {
             RentsDTO cdt = new RentsDTO();
-            cdt.rentCode = c.rensCode;
+            cdt.rensCode = c.rensCode;
             cdt.customerId = c.customerId;
             cdt.carCode = c.carCode;
             cdt.beginDate = c.beginDate;
@@ -164,7 +164,7 @@ namespace BL.ClassesBL
         {
             Rents c = new Rents();
 
-            c.rensCode = cdt.rentCode;
+            c.rensCode = cdt.rensCode;
             c.customerId = cdt.customerId;
             c.carCode = cdt.carCode;
             c.beginDate = cdt.beginDate;

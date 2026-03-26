@@ -4,4 +4,5 @@ export interface Car {
     level: number;
     priceOfDay: number;
     priceOfWeek: number;
+    carName: string;
 }

@@ -25,7 +25,8 @@ namespace DAL
         public int level { get; set; }
         public int priceOfDay { get; set; }
         public int priceOfWeek { get; set; }
-    
+        public virtual string carName { get; set; }
+
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Rents> Rents { get; set; }
     }

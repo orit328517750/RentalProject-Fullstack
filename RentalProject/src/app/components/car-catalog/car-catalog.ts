@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { CarService } from '../../services/car';
 import { Car } from '../../models/car';
-import { RouterModule } from '@angular/router';
+import { Router, RouterModule } from '@angular/router'; // נוסף Router
 
 @Component({
   selector: 'app-car-catalog',
@@ -15,16 +15,25 @@ import { RouterModule } from '@angular/router';
 export class CarCatalog implements OnInit {
   cars = signal<Car[]>([]);
 
-  // הגדרת משתנים כ-null מאפשרת לנו לדעת אם המשתמש נגע בהם
   filterPlaces: number | null = null;
   filterLevel: number | null = null;
   filterPrice: number | null = null;
 
-  constructor(private carService: CarService) {}
+  // הוספנו את ה-Router ב-Constructor
+  constructor(private carService: CarService, private router: Router) {}
 
   ngOnInit() {
     this.loadAllCars();
   }
+
+  // פונקציה חדשה: בחירת רכב ומעבר לתשלום
+ selectCar(car: Car) {
+  // 1. שמירת קוד הרכב הנבחר
+  sessionStorage.setItem('selectedCarCode', car.carCode.toString());
+  
+  // 2. תיקון הניווט: במקום '/payment', עוברים לדף הפרטים החדש
+  this.router.navigate(['/rental-details']); 
+}
 
   loadAllCars() {
     this.carService.getAllCars().subscribe({
@@ -40,7 +49,6 @@ export class CarCatalog implements OnInit {
 
     let obs: any;
 
-    // לוגיקה לבחירת פונקציית הסינון הנכונה
     if (hasPlace && hasLevel && hasPrice) {
       obs = this.carService.getCarsByCriteria(this.filterPlaces!, this.filterLevel!, this.filterPrice!);
     } else if (hasPlace && !hasLevel && !hasPrice) {
@@ -50,7 +58,6 @@ export class CarCatalog implements OnInit {
     } else if (!hasPlace && !hasLevel && hasPrice) {
       obs = this.carService.getCarByPrice(this.filterPrice!);
     } else {
-      // אם לא נבחר כלום או שילוב חלקי, נטען הכל (או תוכלי להוסיף שילובי ביניים)
       this.loadAllCars();
       return;
     }

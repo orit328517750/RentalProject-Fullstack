@@ -14,6 +14,7 @@ namespace BL.ClassesDTO
         public int level { get; set; }
         public int priceOfDay { get; set; }
         public int priceOfWeek { get; set; }
+        public string carName { get; set; }
 
     }
 }

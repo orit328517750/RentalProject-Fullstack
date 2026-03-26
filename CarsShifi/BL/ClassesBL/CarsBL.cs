@@ -113,6 +113,7 @@ namespace BL.ClassesBL
             cdt.level = c.level;
             cdt.priceOfDay = c.priceOfDay;
             cdt.priceOfWeek = c.priceOfWeek;
+            cdt.carName = c.carName;
             return cdt;
         }
         public Cars Convert(CarsDTO cdt)
@@ -124,6 +125,7 @@ namespace BL.ClassesBL
             c.level = cdt.level;
             c.priceOfDay = cdt.priceOfDay;
             c.priceOfWeek = cdt.priceOfWeek;
+            c.carName = cdt.carName;
             return c;
 
         }

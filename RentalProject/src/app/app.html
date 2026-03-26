@@ -1,20 +1,18 @@
-<!-- <nav class="navbar">
-  <h1>האתר המדהים שלי</h1>
-  <div class="nav-links">
-    <a routerLink="/login" routerLinkActive="active-link">התחברות</a>
-    <a routerLink="/register" routerLinkActive="active-link">הרשמה</a>
-  </div>
-</nav>
-
-<router-outlet></router-outlet> -->
 <nav class="navbar">
   <div class="logo">
     <h1>האתר המדהים שלי</h1>
   </div>
 
   <div class="nav-links">
+    <a *ngIf="userName()" routerLink="/catalog" routerLinkActive="active-link">קטלוג</a>
+
+    <a routerLink="/history" routerLinkActive="active-link" class="history-link">ההיסטוריה שלי</a>
+    
     <div *ngIf="userName()" class="user-logged-in">
       <span>שלום, <strong>{{ userName() }}</strong></span>
+      
+      
+      
       <button (click)="logout()" class="logout-btn">התנתק</button>
     </div>
 

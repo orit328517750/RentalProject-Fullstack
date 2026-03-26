@@ -47,7 +47,7 @@
           <Key>
             <PropertyRef Name="rensCode" />
           </Key>
-          <Property Name="rensCode" Type="int" Nullable="false" />
+          <Property Name="rensCode" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
           <Property Name="customerId" Type="int" Nullable="false" />
           <Property Name="carCode" Type="int" Nullable="false" />
           <Property Name="beginDate" Type="datetime" Nullable="false" />
@@ -177,7 +177,7 @@
           <Key>
             <PropertyRef Name="rensCode" />
           </Key>
-          <Property Name="rensCode" Type="Int32" Nullable="false" />
+          <Property Name="rensCode" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="customerId" Type="Int32" Nullable="false" />
           <Property Name="carCode" Type="Int32" Nullable="false" />
           <Property Name="beginDate" Type="DateTime" Nullable="false" Precision="3" />

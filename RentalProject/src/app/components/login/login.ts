@@ -27,22 +27,22 @@ export class LoginComponent implements OnInit {
   }
 
   onLogin() {
-    const email = this.loginForm.value.email;
+  const email = this.loginForm.value.email;
 
-    this.customerService.login(email).subscribe({
-      next: (user) => {
-        alert(`ברוך הבא, ${user.firstName}!`);
-        // כאן כדאי לשמור את המשתמש ב-SessionStorage כדי שהאתר יזכור אותו
-        sessionStorage.setItem('loggedInUser', JSON.stringify(user));
-        // אחרי ששמרת את המשתמש ב-sessionStorage
-        window.location.href = '/'; // זה יזרוק אותו לדף הבית וירענן את ה-Navbar
-        // ניווט לדף הבית למשל
-        this.router.navigate(['/home']);
-      },
-      error: (err) => {
-        console.error(err);
-        alert('ההתחברות נכשלה. בדוק את המייל או הירשם קודם.');
-      }
-    });
-  }
+  this.customerService.login(email).subscribe({
+    next: (user) => {
+      // 1. שמירת המשתמש ב-sessionStorage (כדי שהאתר ידע מי מחובר)
+      sessionStorage.setItem('loggedInUser', JSON.stringify(user));
+
+      alert(`ברוך הבא, ${user.firstName}!`);
+
+      // 2. רענון ומעבר לקטלוג - זה מה שיגרום לכפתור ההיסטוריה להופיע ב-Navbar
+      window.location.href = '/catalog'; 
+    },
+    error: (err) => {
+      console.error(err);
+      alert('ההתחברות נכשלה. בדוק את המייל או הירשם קודם.');
+    }
+  });
+}
 }

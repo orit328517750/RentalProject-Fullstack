@@ -23,6 +23,7 @@ export class RegisterComponent implements OnInit {
     this.registerForm = this.fb.group({
       firstName: ['', [Validators.required]], // שימי לב: f קטנה!
       lastName: ['', [Validators.required]],  // שימי לב: l קטנה!
+      Id: ['', [Validators.required]],
       idCity: ['', [Validators.required, Validators.min(1)]],
       email: ['', [Validators.required, Validators.email]],
       numOfLending: [0], // ברירת מחדל
@@ -39,7 +40,7 @@ export class RegisterComponent implements OnInit {
 
     const newCustomer = this.registerForm.value as Customer;
     // ודאי שהשדה Id תואם למה שה-API מצפה (לפעמים זה id בטילדה קטנה)
-    newCustomer.Id = 0; 
+    //newCustomer.Id = 0; 
 
     console.log('שולח נתונים לשרת:', newCustomer);
 

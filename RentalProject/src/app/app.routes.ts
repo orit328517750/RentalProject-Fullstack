@@ -14,11 +14,16 @@ import { LoginComponent } from './components/login/login';
 import { CarCatalog } from './components/car-catalog/car-catalog';
 import { authGuard } from './guards/auth-guard'; // ייבוא הגארד
 import { PaymentComponent } from './components/payment/payment'; // ייבוא קומפוננטת התשלום
+import { Rent } from './components/rent/rent';
+import { RentalDetails } from './components/rental-details/rental-details';
+
 export const routes: Routes = [
   { path: '', redirectTo: 'catalog', pathMatch: 'full' },
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent },
   { path: 'payment', component: PaymentComponent}, 
+  { path: 'history', component: Rent, canActivate: [authGuard] },
+  { path: 'rental-details', component: RentalDetails },
   {
     path: 'catalog', 
     component: CarCatalog, 

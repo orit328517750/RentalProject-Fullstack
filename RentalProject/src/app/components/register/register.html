@@ -3,7 +3,7 @@
 
   <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
 
-    <div>
+    <div class="form-group">
       <label>שם פרטי:</label>
       <input type="text" formControlName="firstName">
       <small style="color:red" *ngIf="registerForm.get('firstName')?.invalid && registerForm.get('firstName')?.touched">
@@ -11,17 +11,25 @@
       </small>
     </div>
 
-    <div>
+    <div class="form-group">
       <label>שם משפחה:</label>
       <input type="text" formControlName="lastName">
     </div>
 
-    <div>
+    <div class="form-group">
+      <label>תעודת זהות:</label>
+      <input type="text" formControlName="Id" placeholder="הכנס 9 ספרות">
+      <small style="color:red" *ngIf="registerForm.get('Id')?.invalid && registerForm.get('Id')?.touched">
+        תעודת זהות תקינה היא חובה
+      </small>
+    </div>
+
+    <div class="form-group">
       <label>אימייל:</label>
       <input type="email" formControlName="email">
     </div>
 
-    <div>
+    <div class="form-group">
       <label>קוד עיר:</label>
       <input type="number" formControlName="idCity">
     </div>

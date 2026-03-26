@@ -21,7 +21,7 @@ namespace API.Controllers
             return rbl.GetRentsById(rentsCode);
         }
 
-        [Route("add/c")]
+        [Route("add")]
         [HttpPost]
         public bool Add(RentsDTO c)
         {
@@ -153,7 +153,7 @@ namespace API.Controllers
         //    return rbl.GetCarsByRentalPurpose(rentalPurpose);
         //}
 
-        [Route("getrentsbycustomerid/customerId")]
+        [Route("getrentsbycustomerid/{customerId}")]
         [HttpGet]
         public List<RentsDTO> GetRentsByCustomerId(int customerId)
         {

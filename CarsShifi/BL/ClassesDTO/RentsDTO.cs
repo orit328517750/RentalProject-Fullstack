@@ -9,7 +9,7 @@ namespace BL.ClassesDTO
 {
     public class RentsDTO
     {
-        public int rentCode { get; set; }
+        public int rensCode { get; set; }
         public int customerId { get; set; }
         public int carCode { get; set; }
         public System.DateTime beginDate { get; set; }

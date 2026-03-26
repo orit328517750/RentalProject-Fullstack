@@ -32,4 +32,10 @@ export class CarService {
   getCarByPrice(maxPrice: number): Observable<Car[]> {
     return this.http.get<Car[]>(`${this.apiUrl}/getcarsbypriceperday/${maxPrice}`);
   }
+
+  // בתוך CarService
+  getCarByCode(code: number): Observable<Car> {
+    // הוספנו את 'getcarsbyid' לנתיב כדי להתאים ל-C#
+    return this.http.get<Car>(`${this.apiUrl}/getcarsbyid/${code}`); 
+  }
 }
