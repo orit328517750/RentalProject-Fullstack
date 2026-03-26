@@ -1,148 +1,186 @@
-/* car-catalog.component.css */
+/* RENTCAR - Car Catalog Final Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:host {
+    display: block;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+    min-height: 100vh;
+    direction: rtl;
+}
+
 .catalog-wrapper {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 50px 20px;
-  direction: rtl;
-  background-color: #fdfdfd;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 60px 20px;
 }
 
 .header-section {
-  text-align: center;
-  margin-bottom: 50px;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 .header-section h1 {
-  font-size: 2.8rem;
-  color: #2c3e50;
-  font-weight: 700;
-  letter-spacing: -1px;
+    font-size: clamp(32px, 5vw, 48px);
+    font-weight: 800;
+    color: #1e3a8a;
+    margin-bottom: 12px;
 }
 
-/* סרגל סינון הייטקי */
 .filter-container {
-  background: white;
-  padding: 30px;
-  border-radius: 20px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  gap: 20px;
-  box-shadow: 0 15px 35px rgba(0,0,0,0.05);
-  margin-bottom: 60px;
-  border: 1px solid #f0f0f0;
+    background: white;
+    padding: 30px;
+    border-radius: 24px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+    margin-bottom: 50px;
+    border: 1px solid #e2e8f0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 25px;
+    align-items: end;
 }
 
 .filter-group label {
-  display: block;
-  font-size: 0.9rem;
-  color: #7f8c8d;
-  margin-bottom: 8px;
-  font-weight: 600;
+    font-size: 14px;
+    font-weight: 700;
+    color: #334155;
+    margin-bottom: 10px;
+    display: block;
 }
 
-.filter-group input {
-  border: 1.5px solid #eee;
-  padding: 10px 15px;
-  border-radius: 10px;
-  width: 140px;
-  transition: all 0.3s;
+.filter-group input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #f1f5f9;
+    border-radius: 12px;
+    transition: 0.3s;
 }
 
 .filter-group input:focus {
-  border-color: #3498db;
-  outline: none;
+    border-color: #1e40af;
+    outline: none;
+}
+
+.slider {
+    width: 100%;
+    accent-color: #f97316;
+}
+
+.filter-buttons {
+    display: flex;
+    gap: 12px;
 }
 
 .btn-search {
-  background: #2c3e50;
-  color: white;
-  border: none;
-  padding: 15px 30px;
-  border-radius: 12px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.3s;
+    flex: 2;
+    padding: 14px;
+    background: #1e3a8a;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 .btn-search:hover {
-  background: #34495e;
-  transform: translateY(-2px);
+    background: #1e40af;
+    transform: translateY(-2px);
 }
 
-/* גריד הרכבים */
+.btn-reset-top {
+    flex: 1;
+    background: #f1f5f9;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
 .cars-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 35px;
 }
 
 .car-card {
-  background: white;
-  border-radius: 25px;
-  overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.03);
-  transition: all 0.4s ease;
-  border: 1px solid #f5f5f5;
+    background: white;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 1px solid #f0f4f8;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .car-card:hover {
-  transform: translateY(-15px);
-  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    transform: translateY(-12px);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.12);
 }
 
 .car-card-header {
-  height: 180px;
-  background: linear-gradient(45deg, #f3f4f7, #ffffff);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
+    height: 200px;
+    background: #f8fafc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 .luxury-badge {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  background: #27ae60;
-  color: white;
-  padding: 5px 15px;
-  border-radius: 30px;
-  font-size: 0.75rem;
-  font-weight: bold;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #27ae60;
+    color: white;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 800;
 }
 
-.car-visual { font-size: 80px; }
+.luxury-premium { background: #9333ea; }
 
-.car-card-body { padding: 30px; }
+.car-visual { font-size: 90px; }
 
-.price-tag {
-  color: #2c3e50;
-  font-size: 1.5rem;
-  font-weight: 800;
-  margin-bottom: 5px;
-}
+.car-card-body { padding: 25px; }
+
+.price-tag { font-size: 26px; font-weight: 800; color: #1e3a8a; }
+
+.price-tag span { font-size: 15px; color: #64748b; font-weight: 400; }
 
 .car-info {
-  display: flex;
-  justify-content: space-between;
-  color: #95a5a6;
-  font-size: 0.9rem;
-  margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    background: #f1f5f9;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 20px 0;
+    font-size: 14px;
+    color: #475569;
 }
 
 .btn-order {
-  width: 100%;
-  padding: 14px;
-  background: transparent;
-  border: 2px solid #2c3e50;
-  border-radius: 15px;
-  font-weight: 700;
-  cursor: pointer;
-  transition: 0.3s;
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(249, 115, 22, 0.2);
 }
 
-.btn-order:hover {
-  background: #2c3e50;
-  color: white;
+.empty-state-card {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 80px;
+    background: white;
+    border-radius: 30px;
 }
+
+.empty-icon { font-size: 60px; margin-bottom: 20px; }

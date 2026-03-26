@@ -1,27 +1,29 @@
-// import { Component, signal } from '@angular/core';
-// import { RouterOutlet } from '@angular/router';
+// --- הגרסה הסופית والמשולבת (הלוגיקה של חברתך + העיצוב שלך) ---
 
-// @Component({
-//   selector: 'app-root',
-//   imports: [RouterOutlet],
-//   templateUrl: './app.html',
-//   styleUrl: './app.css'
-// })
-// export class App {
-//   protected readonly title = signal('RentalProject');
-// }
+// 1. ה-Imports המאוחדים
 import { Component, OnInit, signal } from '@angular/core';
 import { RouterOutlet, Router, RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 
+// --- תוספות העיצוב שלך: ייבוא הקומפוננטות הוויזואליות ---
+// (ודאי שהנתיב לתיקיות נכון אצלך בפרויקט!)
+import { NavbarComponent } from './navbar/navbar'; 
+import { Footer } from './footer/footer';
+
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, RouterModule, CommonModule],
+  
+  // --- תוספות העיצוב שלך: הוספת ה-imports לרשימה ---
+  imports: [RouterOutlet, RouterModule, CommonModule, NavbarComponent, Footer],
+  
+  // שימוש ב-HTML וה-CSS הסופיים (של חברתך, שהם המעודכנים ביותר)
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
 export class App implements OnInit {
+  // --- הלוגיקה המשותפת (כמעט זהה בשתי הגרסאות) ---
+  
   // סיגנל לשם המשתמש - התחלה כריק
   public userName = signal<string | null>(null);
   protected readonly title = signal('RentalProject');

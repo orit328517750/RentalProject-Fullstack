@@ -1,53 +1,77 @@
-<div class="payment-wrapper">
-  
-  <div class="credit-card-viz" [ngClass]="{'is-flipped': isFlipped}">
+<div class="payment-wrapper" dir="rtl">
     
-    <div class="card-front">
-      <div class="card-type-logo">VISA</div>
-      <div class="chip"></div>
-      <div class="card-number">{{ paymentData.creditCard || '#### #### #### ####' }}</div>
-      <div class="card-holder">CAR RENTAL CUSTOMER</div>
-      <div class="card-expiry">{{ paymentData.validit || 'MM/YY' }}</div>
+    <div class="credit-card-viz" [class.is-flipped]="isFlipped">
+        <div class="card-front">
+            <div class="card-type-logo">VISA</div>
+            <svg class="card-chip-icon" style="float: left; margin-left: 10px; opacity: 0.8" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
+            
+            <div class="chip"></div>
+            <div class="card-number">{{ paymentData.creditCard || '#### #### #### ####' }}</div>
+            <div class="card-footer">
+                <div class="info-item">
+                    <span class="label">בעל הכרטיס</span>
+                    <div class="val">RENTCAR CUSTOMER</div>
+                </div>
+                <div class="info-item">
+                    <span class="label">תוקף</span>
+                    <div class="val">{{ paymentData.validit || 'MM/YY' }}</div>
+                </div>
+            </div>
+        </div>
+        <div class="card-back">
+            <div class="magnetic-strip"></div>
+            <div class="cvv-section">
+                <span class="label" style="color: white; margin-bottom: 5px;">CVV</span>
+                <div class="cvv-display">{{ paymentData.cvc || '***' }}</div>
+            </div>
+        </div>
     </div>
 
-    <div class="card-back">
-      <div class="magnetic-strip"></div>
-      <div class="cvv-display">{{ paymentData.cvc || '***' }}</div>
+    <div class="main-card payment-form" *ngIf="!isLoading && !isSuccess">
+        <div class="card-header blue-bg">
+            <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                <h2>פרטי תשלום מאובטחים</h2>
+            </div>
+        </div>
+        <form>
+            <div class="form-group">
+                <label>מספר כרטיס אשראי</label>
+                <input type="text" [(ngModel)]="paymentData.creditCard" name="card" maxlength="16" placeholder="0000 0000 0000 0000">
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label>תוקף (MM/YY)</label>
+                    <input type="text" [(ngModel)]="paymentData.validit" name="val" placeholder="MM/YY" maxlength="5">
+                </div>
+                <div class="form-group">
+                    <label>CVV</label>
+                    <input type="password" [(ngModel)]="paymentData.cvc" name="cvv" maxlength="3" 
+                           (focus)="isFlipped = true" (blur)="isFlipped = false">
+                </div>
+            </div>
+            <button class="btn-pay" (click)="confirmPayment()">בצע תשלום והזמן עכשיו</button>
+        </form>
     </div>
-  </div>
 
-  <div class="payment-form-card" *ngIf="!isLoading && !isSuccess">
-    <h2>פרטי תשלום</h2>
-    
-    <div class="form-group">
-      <label>מספר כרטיס</label>
-      <input type="text" [(ngModel)]="paymentData.creditCard" maxlength="16" placeholder="0000 0000 0000 0000">
+    <div class="main-card loader-card" *ngIf="isLoading">
+        <div class="spinner"></div>
+        <h3>מתקשר עם חברת האשראי...</h3>
+        <p style="color: #64748b; margin-top: 10px;">נא לא לרענן את הדף</p>
     </div>
 
-    <div class="form-row">
-      <div class="form-group">
-        <label>תוקף</label>
-        <input type="text" [(ngModel)]="paymentData.validit" placeholder="MM/YY" maxlength="5">
-      </div>
-      <div class="form-group">
-        <label>CVV</label>
-        <input type="password" [(ngModel)]="paymentData.cvc" maxlength="3" placeholder="***"
-               (focus)="isFlipped = true" (blur)="isFlipped = false">
-      </div>
+    <div class="main-card success-card" *ngIf="isSuccess">
+        <div class="card-header green-bg">
+            <div class="check-icon">✔️</div>
+            <h2>ההזמנה בוצעה בהצלחה! 🎉</h2>
+        </div>
+        <div class="success-content">
+            <div class="order-box">
+                <p>מספר אישור ההזמנה שלך:</p>
+                <strong>#{{ generatedOrderNum }}</strong>
+            </div>
+            <p class="sub-text">אישור נשלח למייל שלך. נתראה בקרוב!</p>
+            <button class="btn-home" (click)="backToCatalog()">חזרה לקטלוג</button>
+        </div>
     </div>
-
-    <button class="btn-pay" (click)="confirmPayment()">בצע תשלום והזמן עכשיו</button>
-  </div>
-
-  <div class="loader-container" *ngIf="isLoading">
-    <div class="spinner"></div>
-    <p>מתקשר עם חברת האשראי...</p>
-  </div>
-
-  <div class="success-message" *ngIf="isSuccess">
-    <div class="success-icon">✔️</div>
-    <h2>ההזמנה בוצעה בהצלחה!</h2>
-    <p>מספר אישור ההזמנה שלך: #{{generatedOrderNum}}</p>
-    <button class="btn-reset" (click)="backToCatalog()">חזרה לקטלוג</button>
-  </div>
 </div>

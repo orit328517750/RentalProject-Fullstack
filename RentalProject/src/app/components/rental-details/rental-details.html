@@ -1,47 +1,48 @@
 <div class="details-wrapper" dir="rtl">
-  <h2>פרטי ההשכרה עבור רכב #{{carCode}}</h2>
-  
-  <div class="form-group">
-    <label>לכמה ימים תרצו לשכור?</label>
-    <input type="number" [(ngModel)]="daysToRent" min="1" max="30">
-  </div>
-
-  <div class="form-group">
-    <label>מטרת ההשכרה: <span style="color: red;">*</span></label>
-    <select [(ngModel)]="rentGoal" name="rentGoal" required #goalModel="ngModel">
-      <option value="" disabled selected>בחרו מטרה...</option> <option value="טיול">טיול משפחתי</option>
-      <option value="אירוע">אירוע</option>
-      <option value="עבודה">צרכי עבודה</option>
-      <option value="אחר">אחר...</option>
-    </select>
-    <div *ngIf="goalModel.invalid && goalModel.touched" style="color: red; font-size: 12px; margin-top: 5px;">
-      חובה לבחור את מטרת ההשכרה
+    <h2>פרטי ההשכרה עבור רכב #{{carCode}}</h2>
+    
+    <div class="form-group">
+        <label>לכמה ימים תרצו לשכור?</label>
+        <input type="number" [(ngModel)]="daysToRent" min="1" max="30">
     </div>
-  </div>
 
-  <div class="form-group" *ngIf="rentGoal === 'אחר'">
-    <label>פרטו את מטרת ההשכרה: <span style="color: red;">*</span></label>
-    <input type="text" [(ngModel)]="otherGoal" name="otherGoal" required #otherModel="ngModel">
-    <div *ngIf="otherModel.invalid && otherModel.touched" style="color: red; font-size: 12px; margin-top: 5px;">
-      חובה לפרט את מטרת ההשכרה
+    <div class="form-group">
+        <label>מטרת ההשכרה: <span style="color: #ef4444;">*</span></label>
+        <select [(ngModel)]="rentGoal" name="rentGoal" required #goalModel="ngModel">
+            <option value="" disabled selected>בחרו מטרה...</option>
+            <option value="טיול">טיול משפחתי</option>
+            <option value="אירוע">אירוע</option>
+            <option value="עבודה">צרכי עבודה</option>
+            <option value="אחר">אחר...</option>
+        </select>
+        <div *ngIf="goalModel.invalid && goalModel.touched" style="color: #ef4444; font-size: 12px; margin-top: 5px;">
+            חובה לבחור את מטרת ההשכרה
+        </div>
     </div>
-  </div>
 
-<div class="price-summary" *ngIf="selectedCar">
-  <div class="price-row">
-    <span>מחיר ליום:</span>
-    <strong>₪{{selectedCar.priceOfDay}}</strong>
-  </div>
-  <div class="price-row total">
-    <span>סה"כ לתשלום:</span>
-    <strong class="highlight">₪{{ getTotalPrice() }}</strong>
-  </div>
-</div>
+    <div class="form-group" *ngIf="rentGoal === 'אחר'">
+        <label>פרטו את מטרת ההשכרה: <span style="color: #ef4444;">*</span></label>
+        <input type="text" [(ngModel)]="otherGoal" name="otherGoal" placeholder="למשל: נסיעת מבחן..." required #otherModel="ngModel">
+        <div *ngIf="otherModel.invalid && otherModel.touched" style="color: #ef4444; font-size: 12px; margin-top: 5px;">
+            חובה לפרט את מטרת ההשכרה
+        </div>
+    </div>
 
-  <button class="btn-confirm" 
-        [class.btn-valid]="rentGoal && (rentGoal !== 'אחר' || otherGoal)"
-        [disabled]="!rentGoal || (rentGoal === 'אחר' && !otherGoal)"
-        (click)='proceedToPayment()'>
-  המשך לתשלום מאובטח
-</button>
+    <div class="price-summary" *ngIf="selectedCar">
+        <div class="price-row">
+            <span>מחיר ליום:</span>
+            <strong>₪{{selectedCar.priceOfDay}}</strong>
+        </div>
+        <div class="price-row total">
+            <span>סה"כ לתשלום:</span>
+            <strong class="highlight">₪{{ getTotalPrice() }}</strong>
+        </div>
+    </div>
+
+    <button class="btn-confirm" 
+            [class.btn-valid]="rentGoal && (rentGoal !== 'אחר' || otherGoal)"
+            [disabled]="!rentGoal || (rentGoal === 'אחר' && !otherGoal)"
+            (click)='proceedToPayment()'>
+        המשך לתשלום מאובטח 🔒
+    </button>
 </div>

@@ -39,23 +39,37 @@ export class PaymentComponent implements OnInit {
   }
 
   confirmPayment() {
-    this.isLoading = true;
-    
-    this.paymentService.addPayment(this.paymentData).subscribe({
-      next: (res: any) => {
+  // 1. בדיקת תקינות בסיסית לפני שמתחילים
+  if (!this.paymentData.creditCard || this.paymentData.creditCard.length < 16) {
+    alert("נא להזין מספר כרטיס אשראי תקין (16 ספרות)");
+    return;
+  }
+
+  // 2. הפעלת הספינר הכתום (הצגת ה-loader-container)
+  this.isLoading = true;
+
+  // 3. קריאה לשרת התשלומים
+  this.paymentService.addPayment(this.paymentData).subscribe({
+    next: (res: any) => {
+      // אנחנו מוסיפים השהיה קטנה של 2 שניות כדי שהמשתמש יראה את האנימציה היוקרתית
+      setTimeout(() => {
         if (res === true) {
+          // אם התשלום עבר, עוברים ליצירת הרשומה ב-DB (הלוגיקה של חברתך)
           this.createRentRecord();
         } else {
-          this.isLoading = false;
-          alert("השרת נכשל באישור התשלום");
+          this.isLoading = false; // כיבוי הספינר במקרה של שגיאה
+          alert("התשלום נדחה על ידי חברת האשראי");
         }
-      },
-      error: (err: any) => {
-        this.isLoading = false;
-        alert("שגיאה בתקשורת מול שרת התשלומים!");
-      }
-    });
-  }
+      }, 2000); // 2000 מילישניות = 2 שניות של ספינר
+    },
+    error: (err: any) => {
+      // כיבוי הספינר במקרה של תקלה בתקשורת
+      this.isLoading = false;
+      console.error("Payment Error:", err);
+      alert("שגיאה בתקשורת עם השרת, נסה שנית מאוחר יותר");
+    }
+  });
+}
 
 createRentRecord() {
   const userJson = sessionStorage.getItem('loggedInUser');

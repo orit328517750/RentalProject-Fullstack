@@ -1,181 +1,114 @@
-/* src/app/components/rental-details/rental-details.css */
+/* RENTCAR - Rental Details Luxury Style */
+
+:host {
+    display: block;
+    background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+    min-height: 100vh;
+    padding: 60px 20px;
+    direction: rtl;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+}
 
 .details-wrapper {
-  max-width: 600px;
-  margin: 80px auto; /* מרכוז + רווח מלמעלה */
-  padding: 40px;
-  background-color: #ffffff;
-  border-radius: 16px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); /* צל עדין כמו בקטלוג */
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  border: 1px solid #f0f0f0;
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 40px;
+    background: white;
+    border-radius: 24px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.8);
 }
 
 h2 {
-  color: #333;
-  text-align: center;
-  margin-bottom: 35px;
-  font-weight: 700;
-  font-size: 24px;
+    color: #1e3a8a;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 800;
+    font-size: 28px;
+    letter-spacing: -0.5px;
 }
 
 .form-group {
-  margin-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 label {
-  display: block;
-  margin-bottom: 10px;
-  font-weight: 600;
-  color: #555;
-  font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #334155;
+    font-size: 15px;
 }
 
 input[type="number"],
+input[type="text"],
 select {
-  width: 100%;
-  padding: 12px 15px;
-  border: 1px solid #e0e0e0;
-  border-radius: 8px;
-  font-size: 16px;
-  color: #333;
-  transition: all 0.3s ease;
-  background-color: #fafafa;
+    width: 100%;
+    padding: 14px 18px;
+    border: 2px solid #f1f5f9;
+    border-radius: 12px;
+    font-size: 16px;
+    color: #1e293b;
+    transition: all 0.3s ease;
+    background-color: #f8fafc;
 }
 
-input[type="number"]:focus,
-select:focus {
-  outline: none;
-  border-color: #007bff; /* צבע פוקוס כחול עדין */
-  background-color: #fff;
-  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+input:focus, select:focus {
+    outline: none;
+    border-color: #1e40af;
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgba(30, 64, 175, 0.1);
 }
 
-.btn-confirm {
-  width: 100%;
-  padding: 15px;
-  background-color: #333333; /* צבע הכפתור מהקטלוג */
-  color: #ffffff;
-  border: none;
-  border-radius: 10px;
-  font-size: 18px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  margin-top: 15px;
-}
-
-.btn-confirm:hover {
-  background-color: #444444;
-}
-
-/* התאמה לרזולוציות קטנות */
-@media (max-width: 480px) {
-  .details-wrapper {
-    margin: 40px 20px;
+.price-summary {
+    margin: 30px 0;
     padding: 25px;
-  }
-}
-
-input[type="text"] {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #e0e0e0;
-  border-radius: 8px;
-  background-color: #ffffff;
-  transition: border-color 0.3s;
-}
-
-input[type="text"]:focus {
-  border-color: #007bff;
-  outline: none;
-}
-
-.price-summary {
-  margin-top: 30px;
-  padding: 20px;
-  background-color: #f8f9fa;
-  border-radius: 12px;
-  border-right: 5px solid #333; /* פס דקורטיבי בצד */
+    background: #f1f5f9;
+    border-radius: 18px;
+    border-right: 6px solid #1e3a8a;
 }
 
 .price-row {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px;
-  font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #475569;
 }
 
 .price-row.total {
-  margin-top: 15px;
-  padding-top: 15px;
-  border-top: 1px solid #ddd;
-  font-size: 22px;
-  font-weight: bold;
+    border-top: 1px dashed #cbd5e1;
+    padding-top: 15px;
+    margin-top: 15px;
+    color: #1e3a8a;
+    font-size: 1.4rem;
 }
 
 .highlight {
-  color: #28a745; /* צבע ירוק למחיר הסופי */
+    color: #10b981;
+    font-weight: 800;
 }
 
-
-
-
-.price-summary {
-  margin: 25px 0;
-  padding: 20px;
-  background: linear-gradient(135deg, #ffffff 0%, #f9f9f9 100%);
-  border-radius: 12px;
-  border: 1px solid #e0e0e0;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-}
-
-.price-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 12px;
-  color: #666;
-}
-
-.price-row.total {
-  border-top: 2px dashed #eee;
-  padding-top: 15px;
-  margin-top: 15px;
-  color: #333;
-  font-size: 1.3em;
-}
-
-.highlight {
-  color: #2ecc71; /* ירוק הצלחה */
-  font-weight: 800;
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.05);
-}
-
-/* המצב הרגיל של הכפתור (אפור/כהה) */
 .btn-confirm {
-  width: 100%;
-  padding: 15px;
-  background-color: #333; /* צבע כהה נייטרלי */
-  color: white;
-  border: none;
-  border-radius: 10px;
-  font-size: 18px;
-  font-weight: 600;
-  cursor: not-allowed;
-  transition: all 0.4s ease; /* מעבר חלק בין צבעים */
-  opacity: 0.7;
+    width: 100%;
+    padding: 18px;
+    background: #94a3b8; /* צבע אפור נייטרלי כשהוא חסום */
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: not-allowed;
+    transition: all 0.3s ease;
 }
 
-/* המצב כשהכל מלא - הכפתור הופך לירוק */
 .btn-confirm.btn-valid {
-  background-color: #28a745; /* ירוק הצלחה */
-  cursor: pointer;
-  opacity: 1;
-  box-shadow: 0 4px 12px rgba(40, 167, 69, 0.3);
+    background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(234, 88, 12, 0.3);
 }
 
 .btn-confirm.btn-valid:hover {
-  background-color: #218838;
-  transform: translateY(-1px); /* אפקט לחיצה קטן */
+    transform: translateY(-2px);
+    filter: brightness(1.1);
 }

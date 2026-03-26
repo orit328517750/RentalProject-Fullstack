@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { CarService } from '../../services/car';
 import { Car } from '../../models/car';
-import { Router, RouterModule } from '@angular/router'; // נוסף Router
+import { Router, RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-car-catalog',
@@ -19,26 +19,16 @@ export class CarCatalog implements OnInit {
   filterLevel: number | null = null;
   filterPrice: number | null = null;
 
-  // הוספנו את ה-Router ב-Constructor
   constructor(private carService: CarService, private router: Router) {}
 
   ngOnInit() {
     this.loadAllCars();
   }
 
-  // פונקציה חדשה: בחירת רכב ומעבר לתשלום
- selectCar(car: Car) {
-  // 1. שמירת קוד הרכב הנבחר
-  sessionStorage.setItem('selectedCarCode', car.carCode.toString());
-  
-  // 2. תיקון הניווט: במקום '/payment', עוברים לדף הפרטים החדש
-  this.router.navigate(['/rental-details']); 
-}
-
   loadAllCars() {
     this.carService.getAllCars().subscribe({
       next: (data) => this.cars.set(data),
-      error: (err) => console.error('Error:', err)
+      error: (err) => console.error('Error fetching cars:', err)
     });
   }
 
@@ -69,6 +59,14 @@ export class CarCatalog implements OnInit {
         this.cars.set([]); 
       }
     });
+  }
+
+  selectCar(car: Car) {
+    // שלב 1: שמירת נתוני הרכב ב-session (חשוב להיסטוריה ולתשלום)
+    sessionStorage.setItem('selectedCarCode', car.carCode.toString());
+    
+    // שלב 2: ניווט לנתיב המדויק שהגדרנו ב-Routes
+    this.router.navigate(['/rental-details']); 
   }
 
   resetFilter() {

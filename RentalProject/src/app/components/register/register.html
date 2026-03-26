@@ -1,44 +1,95 @@
 <div class="register-container">
-  <h2>הרשמת לקוח חדש</h2>
-
-  <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
-
-    <div class="form-group">
-      <label>שם פרטי:</label>
-      <input type="text" formControlName="firstName">
-      <small style="color:red" *ngIf="registerForm.get('firstName')?.invalid && registerForm.get('firstName')?.touched">
-        שם פרטי הוא חובה
-      </small>
+    <div class="register-header">
+        <div class="icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+        </div>
+        <h2>הרשמת לקוח חדש</h2>
+        <p>הצטרף למשפחת RENTCAR</p>
     </div>
 
-    <div class="form-group">
-      <label>שם משפחה:</label>
-      <input type="text" formControlName="lastName">
-    </div>
+    <form class="register-form" [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+        
+        <div class="form-group">
+            <label>שם פרטי <span class="required">*</span></label>
+            <div class="input-wrapper">
+                <input type="text" formControlName="firstName" placeholder="הזן שם פרטי">
+                <svg class="input-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+            </div>
+            <small class="error-message" *ngIf="registerForm.get('firstName')?.invalid && registerForm.get('firstName')?.touched">
+                שם פרטי הוא חובה
+            </small>
+        </div>
 
-    <div class="form-group">
-      <label>תעודת זהות:</label>
-      <input type="text" formControlName="Id" placeholder="הכנס 9 ספרות">
-      <small style="color:red" *ngIf="registerForm.get('Id')?.invalid && registerForm.get('Id')?.touched">
-        תעודת זהות תקינה היא חובה
-      </small>
-    </div>
+        <div class="form-group">
+            <label>שם משפחה <span class="required">*</span></label>
+            <div class="input-wrapper">
+                <input type="text" formControlName="lastName" placeholder="הזן שם משפחה">
+                <svg class="input-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+            </div>
+            <small class="error-message" *ngIf="registerForm.get('lastName')?.invalid && registerForm.get('lastName')?.touched">
+                שם משפחה הוא חובה
+            </small>
+        </div>
 
-    <div class="form-group">
-      <label>אימייל:</label>
-      <input type="email" formControlName="email">
-    </div>
+        <div class="form-group">
+            <label>תעודת זהות <span class="required">*</span></label>
+            <div class="input-wrapper">
+                <input type="text" formControlName="Id" placeholder="הזן מספר תעודת זהות">
+                <svg class="input-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="3" y="4" width="18" height="16" rx="2"></rect>
+                    <path d="M7 8h10M7 12h10M7 16h10"></path>
+                </svg>
+            </div>
+            <small class="error-message" *ngIf="registerForm.get('Id')?.invalid && registerForm.get('Id')?.touched">
+                מספר זהות הוא חובה
+            </small>
+        </div>
 
-    <div class="form-group">
-      <label>קוד עיר:</label>
-      <input type="number" formControlName="idCity">
-    </div>
+        <div class="form-group">
+            <label>אימייל <span class="required">*</span></label>
+            <div class="input-wrapper">
+                <input type="email" formControlName="email" placeholder="example@gmail.com">
+                <svg class="input-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                    <path d="m2 7 10 7 10-7"></path>
+                </svg>
+            </div>
+            <small class="error-message" *ngIf="registerForm.get('email')?.invalid && registerForm.get('email')?.touched">
+                נא להזין אימייל תקין
+            </small>
+        </div>
 
-    <button type="submit" [disabled]="registerForm.invalid">הרשמה</button>
+        <div class="form-group">
+            <label>קוד עיר (חובה)</label>
+            <div class="input-wrapper">
+                <input type="number" formControlName="idCity" placeholder="הזן קוד עיר">
+                <svg class="input-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+            </div>
+        </div>
 
-    <p style="margin-top: 10px; text-align: center;">
-  כבר יש לך חשבון? <a routerLink="/login" style="color: blue; cursor: pointer;">התחבר כאן</a>
-</p>
+        <button type="submit" class="btn-submit" [disabled]="registerForm.invalid">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"></path>
+                <polyline points="10 17 15 12 10 7"></polyline>
+                <line x1="15" y1="12" x2="3" y2="12"></line>
+            </svg>
+            הרשמה למערכת
+        </button>
 
-  </form>
+        <p class="footer-link">
+            כבר יש לך חשבון? <a routerLink="/login">התחבר כאן</a>
+        </p>
+    </form>
 </div>

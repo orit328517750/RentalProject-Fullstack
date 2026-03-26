@@ -58,6 +58,6 @@ export class RentalDetails implements OnInit {
     sessionStorage.setItem('rentGoal', finalGoal);
     sessionStorage.setItem('finishDate', finishDate.toISOString());
 
-    this.router.navigate(['/payment']);
+    this.router.navigate(['/payment', this.carCode]);
   }
 }

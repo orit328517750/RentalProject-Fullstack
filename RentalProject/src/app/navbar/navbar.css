@@ -1,0 +1,82 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%; /* שימוש באחוזים עוזר למסכים שונים */
+    height: 85px;
+    background: white;
+    direction: rtl;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo-container {
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.nav-logo-svg {
+    width: 180px;
+    height: auto;
+}
+
+/* המיכל הראשי של כל מה שאינו לוגו */
+.nav-content {
+    display: flex;
+    align-items: center;
+    gap: 30px; /* רווח קבוע בין הקבוצות */
+}
+
+/* קבוצות הקישורים */
+.main-links, .guest-links, .user-section {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* רווח בין כפתורים/קישורים בתוך הקבוצה */
+    flex-wrap: nowrap; /* מונע ירידת שורה או חפיפה */
+}
+
+a {
+    text-decoration: none;
+    color: #475569;
+    font-weight: 600;
+    white-space: nowrap; /* קריטי: מונע מהטקסט להימחץ */
+    transition: 0.3s;
+}
+
+.active-link {
+    color: #1e3a8a !important;
+    border-bottom: 3px solid #f97316;
+    padding-bottom: 5px;
+}
+
+/* עיצוב המשתמש - נקי וללא התנגשות */
+.user-badge {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #eff6ff;
+    padding: 8px 15px;
+    border-radius: 50px;
+    color: #1e40af;
+    white-space: nowrap;
+}
+
+.logout-btn {
+    background: #f97316;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.btn-register {
+    background: #1e3a8a;
+    color: white !important;
+    padding: 10px 25px !important;
+    border-radius: 50px;
+}

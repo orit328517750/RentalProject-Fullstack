@@ -1,22 +1,32 @@
 <div class="container">
   <h2>היסטוריית השכרות</h2>
 
-  <table class="table">
-    <thead>
-      <tr>
-        <th>קוד השכרה</th>
-        <th>תאריך התחלה</th>
-        <th>תאריך סיום</th>
-        <th>מטרת נסיעה</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr *ngFor="let rent of rentHistory">
-        <td>{{ rent.rensCode }}</td>
-        <td>{{ rent.beginDate | date:'dd/MM/yyyy' }}</td>
-        <td>{{ rent.finishDate | date:'dd/MM/yyyy' }}</td>
-        <td>{{ rent.rentGoal }}</td>
-      </tr>
-    </tbody>
-  </table>
+  <div class="table-container" *ngIf="rentHistory && rentHistory.length > 0; else noData">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>קוד השכרה</th>
+          <th>תאריך התחלה</th>
+          <th>תאריך סיום</th>
+          <th>מטרת נסיעה</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let rent of rentHistory">
+          <td><span class="rental-code">#{{ rent.rensCode }}</span></td>
+          <td>{{ rent.beginDate | date:'dd/MM/yyyy' }}</td>
+          <td>{{ rent.finishDate | date:'dd/MM/yyyy' }}</td>
+          <td>
+             <span style="font-weight: 500;">{{ rent.rentGoal }}</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <ng-template #noData>
+    <div class="no-data">
+      <p>עדיין לא ביצעת השכרות. זה הזמן להתחיל!</p>
+    </div>
+  </ng-template>
 </div>
